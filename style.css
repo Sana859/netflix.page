@@ -1,0 +1,138 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#parent{
+    background-image: url(bg-image.jpg);
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    /*background-size: 130%;*/
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.overlay{
+    height: 110vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.502);
+}
+
+.header{
+   /* border: 2px solid blue;*/
+   padding: 25px 0 0 180px;
+   position: relative;
+}
+
+.header img{
+    width: 150px;
+    /*border: 2px solid green;*/
+}
+
+.login-container{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.752);
+    width: 480px;
+    margin: auto;
+    padding: 60px 60px 100px 60px;
+    border-radius: 8px;
+}
+
+.login-container h1{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 25px;    
+}
+
+.login-container #inputField{
+    width: 100%;
+    padding: 16px;
+    background-color: rgba(59, 59, 59, 0.387);
+    border-radius: 4px;
+    border: 1px solid #ffffff97;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.signIn-button{
+    margin-top: 10px;
+}
+.signIn-button input{
+    background-color: #DE0815;
+    border:none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.login-container p{
+    color: #ffffffb3;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.code-button{
+    text-align: center;
+}
+.code-button button{
+    width: 100%;
+    background-color: #5252526e;
+     color: #fff;
+     border: none;
+     padding: 14px 0;
+     border-radius: 4px;
+     font-size: 16px;
+     font-weight: 600;
+}
+
+.link{
+    text-align: center;
+    margin: 15px 0;
+}
+.link a{
+    color:#fff;
+}
+
+.checkbox label{
+    color: #fff;
+    margin-left: 10px;
+}
+.checkbox input{
+    background-color: rgba(59, 59, 59, 0.387);
+}
+
+
+.signUp{
+    margin-top: 20px;
+}
+.signUp span{
+    color: #ffffffb3;
+}
+.signUp a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.captcha{
+    color: #ffffff80;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.learnMore{
+    margin-top: 15px;
+}
+.learnMore a{
+    color: #448Ef4;
+    font-size: 13px;
+}
